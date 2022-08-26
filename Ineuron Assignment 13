@@ -1,0 +1,35 @@
+Q1.   Write a python script to store multiple item in a single variable (items are "Java" "Python" " SQL" "C" )
+Ans.   l1=["Java","Python","SQL","C"]
+
+Q2.   Write a pyhton script to get the data type of the list.
+Ans.   l1=["MySirG",123,20.3,"ChamchamG",3+14j,True]
+        for e in l1:
+            print(type(l1))
+            
+Q3.   Write a python script to get the last element to the list (mylist=["Java","C","Python"])
+Ans.   mylist=["Java","C","Python"]
+       print(mylist[-1])
+       
+Q4.   Write a python script to change the values "SQL","Reactnative" with the value "Nosql" and "Flutter" (list is thislist=["Java","SQL","C","Reactnative"])
+Ans.   thislist=["Java","SQL","C","Reactnative","Javascript","Python"]
+       thislist[1]="Nosql"
+       thislist[3]="Flutter"
+       print(thisllist)
+       
+Q5.   Write a python script to add an item to the end of the list(item "Python",(mylist=["Java","SQL","C","Reactnative"]))
+Ans.   mylist=["Java","SQL","C","Reactnative"]
+       mylist.append("Python")
+       print(mylist)
+       
+Q6.   Write a python program to append element from another list to current list.
+            firstlist=["Java","Python","SQL","C"]
+            secondlist=["C","Cpp","Nosql"]
+Ans.   firstlist=["Java","Python","SQL","C"]
+       secondlist=["C","Cpp","Nosql"]   
+       secondlist.append("Java")
+       secondlist.append("Python")
+       secondlist.append("SQL")
+       secondlist.append("C")
+       print(secondlist)
+       
+Q7.   Write a python script to print all items by referring to their index number(thislist=["Java","SQL","C","Reactnative","Python","javascript"]       
