@@ -33,3 +33,20 @@ Ans.   firstlist=["Java","Python","SQL","C"]
        print(secondlist)
        
 Q7.   Write a python script to print all items by referring to their index number(thislist=["Java","SQL","C","Reactnative","Python","javascript"]       
+Ans.   thislist=["Java","SQL","C","Reactnative","Javascript","Pyhton"]
+       for e in thislist:
+             print(e,end=' ')
+             
+Q8.    Write the python program to sort the list alphanumerically-thislist=["Java","SQL","C","Reactjs","Javascript","Python"]
+Ans.    tislist=["Java","SQL","C","Reactjs","Javascript","Python"]
+        print(sorted(thislist))
+        
+Q9.    Write a python script to create a list of city names taken from the user.
+Ans.    print("Enter City Name, with Square brackets:-\n")
+        C1=eval(input())
+        print(C1)
+        
+Q10.   Write a python script to create a list,where each element of the list is a digit of a given number.
+Ans.    print("Enter Some digit,with Square brackets:-\n")
+        R1=eval(input())
+        print(R1)
