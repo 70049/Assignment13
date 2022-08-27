@@ -38,7 +38,7 @@ Ans.   thislist=["Java","SQL","C","Reactnative","Javascript","Pyhton"]
              print(e,end=' ')
              
 Q8.    Write the python program to sort the list alphanumerically-thislist=["Java","SQL","C","Reactjs","Javascript","Python"]
-Ans.    tislist=["Java","SQL","C","Reactjs","Javascript","Python"]
+Ans.    thislist=["Java","SQL","C","Reactjs","Javascript","Python"]
         print(sorted(thislist))
         
 Q9.    Write a python script to create a list of city names taken from the user.
